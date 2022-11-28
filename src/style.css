@@ -1,0 +1,52 @@
+* {
+ padding: 0px;
+ margin: 0px;
+ text-decoration: none;
+ list-style: none;
+}
+body {
+ transition: 1s linear;
+}
+#drop-down-container {
+ position: absolute;
+ right: 20px;
+ top: 20px;
+}
+#hamburger-container {
+ cursor: pointer;
+ width: 30px;
+  height: 30px;
+display: flex;
+justify-content: space-evenly;
+float: right;
+
+transform: rotate(90deg);
+transition: linear 0.5s;
+}
+.burger-lines {
+ background-color: black;
+ border-radius: 6px;
+ width: 4px;
+ height: 30px;
+}
+.list-container {
+ padding-top: 40px;
+ font-size: 0rem;
+ opacity: 0;
+ transition: linear 0.5s;
+
+}
+.list-container ul {
+
+}
+
+.list-container ul li {
+ cursor: pointer;
+padding: 10px;
+ border: pink 1px solid;
+}
+.list-container ul li:hover {
+background-color:lightcoral;
+ border: pink 1px solid;
+ height: 40px;
+}
